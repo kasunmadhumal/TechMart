@@ -1,0 +1,194 @@
+body {
+    background-color: #F7F7F7;
+}
+.imageContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.tableCollum {
+    height:500px;
+}
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.buyContainer {
+    background-color: white;
+    border-radius: 10px;
+}
+.buyContainer .row {
+    margin-bottom: 15px;
+    margin-left: 2%;
+    top: 0%;
+}
+.table {
+    background-color: #FFFBFB !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.quantityRow {
+    margin-top: 5px;
+    padding-top: 0px;
+}
+.qty{
+    margin: 0px;
+}
+.qty .count {
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    width: 50px;
+    border:1px solid #06052C;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color:#050D02;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    
+    }
+.qty .minus {
+    margin-left: 5%;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color:#050D02;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    
+    
+}
+.payImage {
+    width: 50px;
+    height: 25px;
+}
+.Rbtn {
+    background-color: white;
+    border: none;
+    color: #030392;
+    
+}
+.Rbtn:hover {
+    color: #0505F3;
+    text-decoration: underline;
+}
+.price h6  {
+    padding-top: 10px;
+    width: 80px;
+}
+.price h3 {
+    color: #4B5457;
+}
+.buy input , .addToCart input {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #0362BB;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition:background-color 0.2s;
+}
+.buy input:hover{
+    background-color: #352881;
+    
+}
+.addToCart input {
+    background-color: #48A6FF;
+}
+.addToCart input:hover {
+    background-color: #352881;
+}
+.extraText p {
+    color:  #000533;
+}
+
+.desciptionContainer {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.description table td {
+    text-align: left;
+}
+.desciptionContainer h3 {
+    margin-bottom: 20px;
+}
+.descriptionRow {
+    width: 20%;
+}
+.ratingContainer {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.reviewContainer {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.review {
+    margin-bottom: 50px;
+}
+.cutomerReview , .customerQuestion {
+    margin-left: 5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+.cutomerReview h6, .customerQuestion h6 {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.cutomerReview p , .customerQuestion .question{
+    padding-left: 20px;
+}
+.answer {
+    padding-left: 30px;
+}
+.addRating {
+    background-color:white;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    font-size: 17px;
+}
+.rating {
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.rating p {
+    padding-left: 40px;
+}
+.rate {
+    width: 60px;
+    height: 25px;
+    font-size: 5px;
+}
+.addReview , .askQuestion {
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.addReview input , .askQuestion  input {
+    border-radius: 2px;
+    border: 1px solid #050D02;
+}
