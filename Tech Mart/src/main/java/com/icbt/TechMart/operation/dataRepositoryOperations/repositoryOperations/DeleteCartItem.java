@@ -6,10 +6,11 @@ import java.sql.*;
 import java.util.Arrays;
 
 public class DeleteCartItem implements RepositoryOperation{
-    private Statement statement;
+
     private Connection connection;
     private String email;
     private String itemID;
+
 
     public DeleteCartItem(){
         connection = new DataRepositoryFactory("MySQL").getConnection();

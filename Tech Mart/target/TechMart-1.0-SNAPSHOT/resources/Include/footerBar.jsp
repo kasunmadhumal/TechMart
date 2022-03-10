@@ -80,6 +80,11 @@
                 <div class="row contactRow">
                     <div class="col-sm-2"></div>
                     <i class="fa fa-user col-sm-1 icon" aria-hidden="true"></i>
+                    <p class="description col-sm-5"><a href="SupplierLoginPage.jsp">Supplier</a></p>
+                </div>
+                <div class="row contactRow">
+                    <div class="col-sm-2"></div>
+                    <i class="fa fa-user col-sm-1 icon" aria-hidden="true"></i>
                 </div>
 
 

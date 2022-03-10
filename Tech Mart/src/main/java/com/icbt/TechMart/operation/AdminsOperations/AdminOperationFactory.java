@@ -28,6 +28,8 @@ public class AdminOperationFactory {
             adminOperations = new AllCustomerOrders();
         }else if(parameter =="RetrieveAllSales"){
             adminOperations = new RetrieveAllSales();
+        }else if(parameter == "addNewRequest"){
+            adminOperations = new UpdateRequestTable();
         }
 
 

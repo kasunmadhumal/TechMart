@@ -64,6 +64,11 @@ public class UpdateCustomerOrderDetails implements AdminOperations{
     }
 
     @Override
+    public void update(String salesAgentID, String branch, String message) {
+
+    }
+
+    @Override
     public String getBranchOfSalesAgent(String userName) {
         return null;
     }

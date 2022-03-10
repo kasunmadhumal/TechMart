@@ -69,4 +69,9 @@ public class BranchOfSalesAgent implements AdminOperations{
     public ResultSet allCustomerOrders() {
         return null;
     }
+
+    @Override
+    public void update(String salesAgentID, String branch, String message) {
+
+    }
 }

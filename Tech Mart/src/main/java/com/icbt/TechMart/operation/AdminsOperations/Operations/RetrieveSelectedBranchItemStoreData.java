@@ -43,6 +43,11 @@ public class RetrieveSelectedBranchItemStoreData implements AdminOperations {
         return null;
     }
 
+    @Override
+    public void update(String salesAgentID, String branch, String message) {
+
+    }
+
 
     @Override
     public String getBranchOfSalesAgent(String userName) {

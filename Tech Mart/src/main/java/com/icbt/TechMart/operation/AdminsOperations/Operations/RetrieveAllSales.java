@@ -31,11 +31,10 @@ public class RetrieveAllSales implements AdminOperations{
         return resultSet;
     }
 
+    @Override
+    public void update(String salesAgentID, String branch, String message) {
 
-
-
-
-
+    }
 
 
     @Override
