@@ -30,6 +30,8 @@ public class AdminOperationFactory {
             adminOperations = new RetrieveAllSales();
         }else if(parameter == "addNewRequest"){
             adminOperations = new UpdateRequestTable();
+        }else if(parameter == "addNewItem"){
+            adminOperations = new AddNewItems();
         }
 
 

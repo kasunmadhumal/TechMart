@@ -7,6 +7,7 @@
             <li class="nav-item"><a href="AdminAllItemDetails" class="nav-link">All Item Details</a></li>
             <li class="nav-item"><a href="AdminAllSalesController" class="nav-link">All Sales</a></li>
             <li class="nav-item"><a href="AddNewSalesAgent.jsp" class="nav-link">Add new Sales Agent</a></li>
+            <li class="nav-item"><a href="AddNewItem.jsp" class="nav-link">Add new Item</a></li>
             <li class="nav-item"><h1 style="color: aqua">_____________ADMIN____________</h1></li>
         </ul>
     </div>

@@ -10,4 +10,5 @@ public interface AdminOperations {
     void orderRemoveFromDatabase(String username,double orderAmount,String salesAgent);
     ResultSet allCustomerOrders();
     void update(String salesAgentID,String branch,String message);
+
 }
