@@ -1,11 +1,7 @@
 <%@ page import="java.sql.ResultSet" %>
-<%@ page import="java.sql.SQLException" %><%--
-  Created by IntelliJ IDEA.
-  User: Kasun Madhumal
-  Date: 3/8/2022
-  Time: 9:13 AM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="java.sql.SQLException" %>
+
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <% ResultSet ordersDetails = (ResultSet) request.getAttribute("result"); %>
 

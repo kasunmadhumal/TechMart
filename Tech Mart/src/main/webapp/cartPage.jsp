@@ -1,11 +1,7 @@
 <%@ page import="com.icbt.TechMart.model.product.ProductInCart" %>
-<%@ page import="java.util.ArrayList" %><%--
-  Created by IntelliJ IDEA.
-  User: Kasun Madhumal
-  Date: 3/4/2022
-  Time: 1:08 AM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="java.util.ArrayList" %>
+
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%  ArrayList<ProductInCart> cartItemData = (ArrayList<ProductInCart>) request.getAttribute("cartItemData");
     int cartItemCount = (int) request.getAttribute("cartItemCount");

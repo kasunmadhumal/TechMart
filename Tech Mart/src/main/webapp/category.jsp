@@ -1,11 +1,7 @@
 <%@ page import="com.icbt.TechMart.model.product.ProductImplementation" %>
-<%@ page import="java.util.ArrayList" %><%--
-  Created by IntelliJ IDEA.
-  User: Kasun Madhumal
-  Date: 3/4/2022
-  Time: 12:40 AM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="java.util.ArrayList" %>
+
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="resources/Include/header.jsp" %>
 <% ArrayList<ProductImplementation> itemDetailsList = (ArrayList<ProductImplementation>) request.getAttribute("itemList");
